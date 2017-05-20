@@ -14,6 +14,8 @@
 		98203FAB1ECFF24B00CCE031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98203FA91ECFF24B00CCE031 /* LaunchScreen.storyboard */; };
 		98203FB61ECFF24B00CCE031 /* MVVM_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98203FB51ECFF24B00CCE031 /* MVVM_SwiftTests.swift */; };
 		98203FC11ECFF24C00CCE031 /* MVVM_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98203FC01ECFF24C00CCE031 /* MVVM_SwiftUITests.swift */; };
+		98203FD01ECFF34F00CCE031 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98203FCF1ECFF34F00CCE031 /* Car.swift */; };
+		98203FD31ECFF39800CCE031 /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98203FD21ECFF39800CCE031 /* CarViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		98203FBC1ECFF24C00CCE031 /* MVVM-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVVM-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98203FC01ECFF24C00CCE031 /* MVVM_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_SwiftUITests.swift; sourceTree = "<group>"; };
 		98203FC21ECFF24C00CCE031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98203FCF1ECFF34F00CCE031 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		98203FD21ECFF39800CCE031 /* CarViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		98203F9F1ECFF24B00CCE031 /* MVVM-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				98203FD11ECFF36B00CCE031 /* ViewModel */,
 				98203FA01ECFF24B00CCE031 /* AppDelegate.swift */,
 				98203FA21ECFF24B00CCE031 /* ViewController.swift */,
+				98203FCE1ECFF33600CCE031 /* Model */,
 				98203FA41ECFF24B00CCE031 /* Main.storyboard */,
 				98203FA71ECFF24B00CCE031 /* Assets.xcassets */,
 				98203FA91ECFF24B00CCE031 /* LaunchScreen.storyboard */,
@@ -123,6 +129,22 @@
 				98203FC21ECFF24C00CCE031 /* Info.plist */,
 			);
 			path = "MVVM-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		98203FCE1ECFF33600CCE031 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				98203FCF1ECFF34F00CCE031 /* Car.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		98203FD11ECFF36B00CCE031 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				98203FD21ECFF39800CCE031 /* CarViewModel.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +286,8 @@
 			files = (
 				98203FA31ECFF24B00CCE031 /* ViewController.swift in Sources */,
 				98203FA11ECFF24B00CCE031 /* AppDelegate.swift in Sources */,
+				98203FD01ECFF34F00CCE031 /* Car.swift in Sources */,
+				98203FD31ECFF39800CCE031 /* CarViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
