@@ -42,5 +42,7 @@ class MVVM_SwiftTests: XCTestCase {
         XCTAssertEqual(ferrariViewModel.photoURL, NSURL(string: ferrariF12.photoURL))
         XCTAssertEqual(ferrariViewModel.titleText, "Ferrari F12")
     }
+    
+    
 
 }
